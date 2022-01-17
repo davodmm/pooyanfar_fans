@@ -41,19 +41,18 @@
 }
 
 #image3 {
-  height: 48vh;
-  float: none;
-  margin: 0em;
+  display: none;
 }
 
 #image2 {
   float: none;
   margin: 0em;
+  height: 36vh;
 }
 
 #header .header {
   margin: 0%;
-  height: 150vh;
+  height: 70vh;
   width: 95vw;
 }
 
