@@ -1,0 +1,169 @@
+
+body {
+  margin: 0em;
+}
+
+#nav .nav {
+  background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#nav .nav ul {
+  font-size: 20px;
+  font-size: 1.1em;
+  font-family: Lalezar;
+  padding: 0em;
+  margin: 0em;
+}
+
+#nav .nav h1 {
+  margin-left: 2%;
+  font-size: 1.3em;
+  float: left;
+  display: inline-block;
+  font-family: Almarai;
+}
+
+#nav .nav ul li {
+  list-style-type: none;
+  font-size: 1.2em;
+  color: white;
+  padding: 0.5em 1.1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#nav .nav ul li:hover {
+  background-color: rgba(194, 17, 17, 0.43);
+  transition: 0.9s;
+}
+
+#nav .nav ul a {
+  text-decoration: none;
+}
+
+
+
+/* header */
+
+
+
+#header {
+  text-align: center;
+}
+
+#header .header {
+  margin: 0% 6%;
+  border-radius: 0.7em;
+  background-color: rgba(78, 178, 208, 0.5);
+  height: 100vh;
+  font-family: Katibeh;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+#header .header h2 {
+  margin: 3% 15%;
+  padding: 4%;
+  background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #d748ee, #cf1bd2, #910287, #74006c, #570056, #330034);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #d748ee, #cf1bd2, #910287, #74006c, #570056, #330034); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1px solid black;
+  color: rgb(225, 205, 233);
+  display: inline-block;
+  border-radius: 5em;
+}
+
+#header .header h6 {
+  display: none;
+}
+
+#image2 {
+  margin-right: 4em;
+  height: 50vh;
+  float: right;
+  border-radius: 10%;
+}
+
+#image3 {
+  margin-left: 4em;
+  height: 54vh;
+  float: left;
+  border-radius: 4%;
+}
+
+
+
+/* section1 */
+
+
+
+#section1 h3 {
+  text-align: center;
+  font-size: 1.7em;
+  border-bottom: 4px solid rgb(186, 0, 65);
+  font-family: Noto Nastaliq Urdu;
+}
+
+#headervideo1 {
+  border-radius: 2em;
+  width: 35vw;
+  margin-right: 5%;
+}
+
+#headervideo2 {
+  border-radius: 2em;
+  width: 35vw;
+  margin-top: 0%;
+  margin-left: 5%;
+  float: left;
+}
+
+#seaction1 > div.videos {
+  border: 1.2px solid black;
+  background-color: red;
+}
+
+
+
+/* footer */
+
+
+
+#footer {
+  margin: 10% 0% 0% 0%;
+  padding: 2%;
+  background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+#footer div.links img.logo {
+  height: 7vh;
+  float: left;
+  text-align: center;
+  margin: 2.5% 1.5% 0% 2%;
+}
+
+#footer div.links h2 {
+  display: inline-block;
+  font-family: Noto Nastaliq Urdu;
+}
+
+#footer div.shakhsi{
+  display: inline-block;
+}
+
+#footer div.shakhsi h4 {
+  font-size: 1.1em;
+  font-family: Cairo;
+  float: right;
+}
+
+b {
+  font-size: 1.8em;
+}

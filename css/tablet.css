@@ -1,0 +1,89 @@
+
+
+#nav .nav h1 {
+  display: none;
+}
+
+#nav .nav ul li {
+  width: 41vw;
+  display: inline-block;
+  text-align: center;
+  padding: 0.8em;
+}
+
+
+
+
+/* header */
+
+
+
+
+#header marquee {
+  display: none;
+}
+
+#header {
+  margin-top: 5%;
+}
+
+#image2 {
+  display: none;
+}
+
+#image3 {
+  width: 77vw;
+  margin: 0% 0% 0% 5%;
+}
+
+#headervideo1 {
+  width: 42vw;
+}
+
+#headervideo2 {
+  width: 42vw;
+}
+
+#header .header h2 {
+  font-size: 1.1em;
+}
+
+#header .header h6 {
+  display: inline-block;
+}
+
+#header .header {
+  height: 103vh;
+}
+
+
+/* section1 */
+
+
+
+#section1 {
+  margin-top: 14%;
+}
+
+
+
+
+/* footer */
+
+
+
+
+#footer div.shakhsi h4 {
+  font-size: 0.7em;
+}
+
+#footer div.links img.logo {
+  height: 7vh;
+  float: left;
+  text-align: center;
+  margin: 2.5% 1.5% 0% 2%;
+}
+
+#footer div.links h2 {
+  font-size: 1.2em;
+}

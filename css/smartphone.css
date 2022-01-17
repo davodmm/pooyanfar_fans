@@ -1,0 +1,100 @@
+
+
+/* nav */
+
+
+
+#nav .nav h1 {
+  display: none;
+}
+
+#nav .nav ul li {
+  display: block;
+  text-align: center;
+  padding: 0.8em;
+}
+
+
+
+
+
+/* header */
+
+
+
+
+
+#header {
+  margin-top: 1em;
+}
+
+#header .header h2 {
+  font-size: 0.9em;
+}
+
+#header .header h6 {
+  display: inline-block;
+}
+
+#header marquee {
+  display: none;
+}
+
+#image3 {
+  height: 48vh;
+  float: none;
+  margin: 0em;
+}
+
+#image2 {
+  float: none;
+  margin: 0em;
+}
+
+#header .header {
+  margin: 0%;
+  height: 150vh;
+  width: 95vw;
+}
+
+
+
+
+/* section */
+
+
+
+
+
+#headervideo1 {
+  display: block;
+  float: right;
+  width: 80vw;
+  margin: 2% 7%;
+}
+
+#headervideo2 {
+  display: block;
+  float: right;
+  width: 80vw;
+  margin: 2% 7%;
+}
+
+
+
+/* footer */
+
+
+
+
+#footer {
+  margin-top: 140%;
+}
+
+#footer div.links h2 {
+  display: block;
+}
+
+#footer div.links img.logo {
+  float: none;
+}
