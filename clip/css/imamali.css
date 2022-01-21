@@ -1,0 +1,175 @@
+body {
+  margin: 0em;
+}
+
+
+
+
+
+/* nav */
+
+
+
+
+
+
+#nav .nav {
+  background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#nav .nav ul {
+  font-size: 20px;
+  font-size: 1.1em;
+  font-family: Lalezar;
+  padding: 0em;
+  margin: 0em;
+}
+
+#nav .nav h1 {
+  margin-left: 2%;
+  font-size: 1.3em;
+  float: left;
+  display: inline-block;
+  font-family: Almarai;
+}
+
+#nav .nav ul li {
+  list-style-type: none;
+  font-size: 1.2em;
+  color: white;
+  padding: 0.5em 1.1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#nav .nav ul li:hover {
+  background-color: rgba(194, 17, 17, 0.43);
+  transition: 0.9s;
+}
+
+#nav .nav ul a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/* header */
+
+
+
+
+
+
+#header div.first {
+  font-family: Noto Nastaliq Urdu;
+  border: 1px solid black;
+  text-align: center;
+  margin: 3% 30%;
+  border-radius: 23em;
+  background-color: rgb(190, 50, 73);
+}
+
+#header div.option {
+  background: #FC354C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 2px solid green;
+  border-radius: 4em;
+  margin: 14% 4% 0% 4%;
+  padding-top: 3%;
+  height: 100vh;
+}
+
+#header div.option div.ali {
+  font-size: 1.1em;
+  font-family: Amiri;
+  background: #414d0b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #949e1c, #727a17, #414d0b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #949e1c, #727a17, #414d0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1px solid black;
+  border-radius: 3em;
+  margin: 0.7% 2% 0% 2%;
+  padding: 0% 1%;
+}
+
+#header div.option a {
+  font-size: 1.2em;
+  text-decoration-line: none;
+  color: rgb(125, 20, 198);
+}
+
+#header div.option div.ali:hover {
+  transition: 0.9s;
+  background: #414d0b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #949e1c, #727a17, #414d0b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #949e1c, #727a17, #414d0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#header div.option a:hover {
+  color: rgb(235, 21, 21);
+}
+
+
+
+/* footer */
+
+
+
+
+
+
+#footer {
+  margin: 10% 0% 0% 0%;
+  padding: 2%;
+  background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+#footer div.links img.logo {
+  height: 7vh;
+  float: left;
+  text-align: center;
+  margin: 2.5% 1.5% 0% 2%;
+}
+
+#footer div.links h2 {
+  display: inline-block;
+  font-family: Noto Nastaliq Urdu;
+}
+
+#footer div.shakhsi{
+  display: inline-block;
+}
+
+#footer div.shakhsi h4 {
+  font-size: 1.1em;
+  font-family: Cairo;
+  float: right;
+}
+
+#h4 b {
+  font-size: 1.8em;
+}
+
+#footer div.shakhsi h6 {
+  margin: 3% 0%;
+  display: inline-block;
+  float: right;
+  font-size: 1.7em;
+  font-family: Mirza;
+}
+
+#h6 b {
+  color: #0020ab;
+  font-size: 1.6em;
+}

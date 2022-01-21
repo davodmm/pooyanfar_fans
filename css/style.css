@@ -164,6 +164,19 @@ body {
   float: right;
 }
 
-b {
+#h4 b {
   font-size: 1.8em;
+}
+
+#footer div.shakhsi h6 {
+  margin: 3% 0%;
+  display: inline-block;
+  float: right;
+  font-size: 1.7em;
+  font-family: Mirza;
+}
+
+#h6 b {
+  color: #0020ab;
+  font-size: 1.6em;
 }
