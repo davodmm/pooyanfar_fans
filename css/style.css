@@ -20,11 +20,11 @@ body {
 }
 
 #nav .nav h1 {
-  margin-left: 2%;
+  margin: 0% 2%;
   font-size: 1.3em;
   float: left;
   display: inline-block;
-  font-family: Almarai;
+  font-family: Noto Nastaliq Urdu;
 }
 
 #nav .nav ul li {
@@ -37,7 +37,7 @@ body {
 }
 
 #nav .nav ul li:hover {
-  background-color: rgba(194, 17, 17, 0.43);
+  background-color: rgba(17, 189, 194, 0.38);
   transition: 0.9s;
 }
 
@@ -47,7 +47,22 @@ body {
 
 
 
+
+
+
+
+
+
+
 /* header */
+
+
+
+
+
+
+
+
 
 
 
@@ -97,7 +112,22 @@ body {
 
 
 
+
+
+
+
+
+
+
 /* section1 */
+
+
+
+
+
+
+
+
 
 
 
@@ -129,12 +159,174 @@ body {
 
 
 
+
+
+
+
+
+
+
+/* section2 */
+
+
+
+
+
+
+
+
+
+hr {
+  border: 4px solid black;
+}
+
+#section2 {
+  padding: 5% 3%;
+  background: #4b6cb7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#section2 div {
+  background-color: rgb(215, 217, 236);
+  font-family: Jomhuria;
+  font-size: 2em;
+  border: 2px solid black;
+  border-radius: 2em;
+  padding: 1.5%;
+}
+
+#section2 div h4 {
+  display: inline-block;
+}
+
+#section2 div h5 {
+  display: inline-block;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section3 */
+
+
+
+
+
+
+
+
+
+
+#aside1 {
+  display: inline-block;
+  width: 30vw;
+  margin: 1%;
+}
+
+#aside1 div.faraj {
+  background-color: rgba(172, 91, 91, 0.66);
+  text-align: center;
+  border-radius: 1em;
+  font-family: Scheherazade New;
+  font-size: 1.5em;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5%;
+  width: 25vw;
+}
+
+#aside1 div.faraj b {
+  color: #096a04;
+}
+
+
+
+
+
+
+
+
+
+/* aside2 */
+
+
+
+
+
+
+
+
+
+#aside2 {
+  display: inline-block;
+  font-family: Lalezar;
+  text-align: center;
+  margin: 1% 3%;
+  width: 60vw;
+  float: left;
+}
+
+#aside2 div.nav {
+  padding: 3% 0%;
+  border-radius: 1em;
+  background: #414d0b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #b7c421, #9da81d, #727a17, #414d0b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #b7c421, #9da81d, #727a17, #414d0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#aside2 div.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+}
+
+#aside2 div.nav h4 {
+  padding: 2% 0%;
+  margin: 0%;
+}
+
+#aside2 div.nav h4:hover {
+  transition: 0.8s;
+  background-color: rgba(249, 190, 121, 0.72);
+}
+
+#aside2 div.pictures marquee img {
+  width: 18vw;
+}
+
+#aside2 div.pictures {
+  margin: 2%;
+}
+
+
+
+
+
+
+
 /* footer */
 
 
 
+
+
+
+
+
+
+
 #footer {
-  margin: 10% 0% 0% 0%;
   padding: 2%;
   background: #e9d362;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800);  /* Chrome 10-25, Safari 5.1-6 */
@@ -150,7 +342,7 @@ body {
 }
 
 #footer div.links h2 {
-  display: inline-block;
+  display: inline;
   font-family: Noto Nastaliq Urdu;
 }
 
@@ -159,6 +351,7 @@ body {
 }
 
 #footer div.shakhsi h4 {
+  display: inline;
   font-size: 1.1em;
   font-family: Cairo;
   float: right;
@@ -170,7 +363,6 @@ body {
 
 #footer div.shakhsi h6 {
   margin: 3% 0%;
-  display: inline-block;
   float: right;
   font-size: 1.7em;
   font-family: Mirza;

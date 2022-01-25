@@ -1,7 +1,13 @@
 
 
 #nav .nav h1 {
-  display: none;
+  display: inline;
+  padding: 20% 0%;
+  float: none;
+}
+
+#nav .nav {
+  text-align: center;
 }
 
 #nav .nav ul li {
@@ -86,4 +92,8 @@
 
 #footer div.links h2 {
   font-size: 1.2em;
+}
+
+#footer div.links h6 {
+  font-size: 1em;
 }

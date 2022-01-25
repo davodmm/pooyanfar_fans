@@ -1,0 +1,196 @@
+
+body {
+  margin: 0em;
+}
+
+
+
+
+
+
+
+
+/* nav */
+
+
+
+
+
+
+
+
+
+#nav .nav {
+  background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#nav .nav ul {
+  font-size: 20px;
+  font-size: 1.1em;
+  font-family: Lalezar;
+  padding: 0em;
+  margin: 0em;
+}
+
+#nav .nav h1 {
+  margin: 0% 2%;
+  font-size: 1.3em;
+  float: left;
+  display: inline-block;
+  font-family: Noto Nastaliq Urdu;
+}
+
+#nav .nav ul li {
+  list-style-type: none;
+  font-size: 1.2em;
+  color: white;
+  padding: 0.5em 1.1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#nav .nav ul li:hover {
+  background-color: rgba(17, 189, 194, 0.38);
+  transition: 0.9s;
+}
+
+#nav .nav ul a {
+  text-decoration: none;
+}
+
+
+h2.all {
+  text-align: center;
+  border: 3px solid black;
+  margin: 5% 25%;
+  padding: 1%;
+  border-radius: 0.8em;
+  font-family: Mirza;
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* section1 */
+
+
+
+
+
+
+
+
+
+
+
+#section1 {
+  margin-bottom: 20vh;
+}
+
+#section1 ul a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#section1 ul li {
+  display: inline-block;
+  text-align: center;
+  width: 37vw;
+  padding: 1%;
+  margin: 1% 7% 1% 4%;
+  border-radius: 1em;
+  font-family: Jomhuria;
+  font-size: 2.5em;
+  background: #EC6F66;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#section1 ul li:hover {
+  width: 80vw;
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  padding: 2%;
+  background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b3600, #594601, #945d00, #c19000, #e9d362, #e3e800); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+#footer div.links img.logo {
+  height: 7vh;
+  float: left;
+  text-align: center;
+  margin: 2.5% 1.5% 0% 2%;
+}
+
+#footer div.links h2 {
+  display: inline;
+  font-family: Noto Nastaliq Urdu;
+}
+
+#footer div.shakhsi{
+  display: inline-block;
+}
+
+#footer div.shakhsi h4 {
+  display: inline;
+  font-size: 1.1em;
+  font-family: Cairo;
+  float: right;
+}
+
+#h4 b {
+  font-size: 1.8em;
+}
+
+#footer div.shakhsi h6 {
+  margin: 3% 0%;
+  float: right;
+  font-size: 1.7em;
+  font-family: Mirza;
+}
+
+#h6 b {
+  color: #0020ab;
+  font-size: 1.6em;
+}

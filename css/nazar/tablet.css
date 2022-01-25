@@ -1,0 +1,64 @@
+
+#nav .nav h1 {
+  display: inline;
+  padding: 20% 0%;
+  float: none;
+}
+
+#nav .nav {
+  text-align: center;
+}
+
+#nav .nav ul li {
+  font-size: 1em;
+  width: 26vw;
+  display: inline-block;
+  text-align: center;
+  padding: 0.8em;
+}
+
+h2.all {
+  width: 84vw;
+  font-size: 1.4em;
+  margin: 5%;
+}
+
+#section1 ul li {
+  width: 80vw;
+  margin: 2%;
+  font-size: 1.9em;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+#footer div.shakhsi h4 {
+  font-size: 0.8em;
+}
+
+#footer div.links img.logo {
+  height: 7vh;
+  float: none;
+  text-align: center;
+  margin: 2.5% 1.5% 0% 2%;
+}
+
+#footer div.links h2 {
+  font-size: 1.2em;
+  display: block;
+}

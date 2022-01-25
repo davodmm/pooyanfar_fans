@@ -5,7 +5,13 @@
 
 
 #nav .nav h1 {
-  display: none;
+  display: inline;
+  padding: 20% 0%;
+  float: none;
+}
+
+#nav .nav {
+  text-align: center;
 }
 
 #nav .nav ul li {
@@ -57,14 +63,74 @@
   width: 95vw;
 }
 
+hr.hr {
+  display: none;
+}
 
 
 
-/* section */
 
 
 
 
+
+
+
+/* aside1,2 */
+
+
+
+
+
+
+
+
+#aside1 div.faraj {
+  width: 90vw;
+  font-size: 1.1em;
+}
+
+#aside2 {
+  display: inline;
+  width: 90vw;
+  text-align: center;
+}
+
+#aside2 div.pictures marquee img {
+  width: 40vw;
+}
+
+#aside2 div.nav a {
+  font-size: 1.4em;
+}
+
+
+
+
+
+/* section1,2 */
+
+
+
+
+
+#section2 {
+  text-align: center;
+  margin-top: 45rem;
+}
+
+#section2 div {
+  font-size: 1.7em;
+}
+
+#section2 div h4 {
+  margin-bottom: 0%;
+}
+
+#section2 div h5 {
+  float: none;
+  margin: 0%;
+}
 
 #headervideo1 {
   display: block;
@@ -87,9 +153,6 @@
 
 
 
-#footer {
-  margin-top: 140%;
-}
 
 #footer div.links h2 {
   display: block;
